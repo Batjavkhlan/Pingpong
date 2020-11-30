@@ -1,0 +1,92 @@
+/* font-family: 'Lato', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Piedra', cursive; */
+
+
+/* CSS HEX */
+
+
+/* --light-cornflower-blue: #8ecae6ff;
+--blue-green: #219ebcff;
+--prussian-blue: #023047ff;
+--honey-yellow: #ffb703ff;
+--orange: #fb8500ff; */
+
+.bordered {
+    border: 2px solid red;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container-fluid {
+    background-image: url('https://assets.bwbx.io/images/users/iqjWHBFdfxIU/igwrxHrIG.UM/v1/-1x-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #8ecae6ff;
+}
+
+.heading-col {
+    background-color: rgba(33, 157, 188, 0.85);
+}
+
+.scr-col {
+    background-color: rgba(255, 184, 3, 0.85);
+    height: 100%;
+}
+
+.btn-col {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(2, 48, 71, 0.85);
+}
+
+.display-1 {
+    font-family: 'Lobster', cursive;
+    font-size: 10em;
+    text-shadow: 4px 4px 0px orange;
+    color: rgb(2, 48, 71);
+}
+
+.display-2 {
+    font-size: 3em;
+    font-family: 'Lato', cursive;
+    color: rgb(2, 48, 71);
+}
+
+h3 {
+    font-size: 12em;
+}
+
+.btn {
+    padding: 0.5em;
+    margin: 0;
+    color: white;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    background-color: #023047ff;
+    font-family: inherit;
+    font-size: 2rem;
+    cursor: pointer;
+    text-align: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    transition: background-color 0.5s ease-in-out 30ms;
+}
+
+.btn:hover {
+    background-color: #8ecae6ff;
+    color: #023047ff;
+}
+
+.btn:disabled {
+    color: gray;
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+.max {
+    autofoc
+}
